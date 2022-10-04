@@ -1,26 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "fogefoge.h"
 
 char** mapa;
 int linhas, colunas;
 
-void lemapa();
-void alocamapa();
-void liberamapa();
-
 int main(){
-    
-
     lemapa();
-    
-    
-
     for(int i=0; i<linhas; i++){
         printf("%s\n",mapa[i]);  //Lendo mapa da matriz (linha por linha)
     }
-
     liberamapa();
-
     return 0;
 }
 
